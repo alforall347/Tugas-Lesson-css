@@ -1,0 +1,89 @@
+.wadah {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap:10px;
+}
+
+.yesno {
+    display: flex;
+    gap: 6px;
+}
+
+.yesno button {
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.google {
+    width:200px;
+}
+.search {
+    width: 400px;
+    padding:5px;
+    border-radius:100px;
+    outline:none;
+    border-color:#cacaca;
+}
+.email {
+    width:295px;
+    padding:10px;
+    border-radius: 10px;
+}
+.name {
+    padding:10px;
+    border-radius: 10px;
+    max-width:145px;
+}
+.nama {
+    padding:10px;
+    border-radius: 10px;
+    max-width:145px;
+}
+.signup {
+    background-color:#2877cb;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight: bold;
+    font-family: arial;
+    display:block;
+    display:inline-block;
+    width:275px;
+}
+.login {
+    justify-content: center;
+    text-align: center;
+}
+.location {
+    padding:8px;
+    width:300px;
+    border:none;
+    background-color: #eaeaea;
+}
+.destination {
+    padding:8px;
+    width:300px;
+    border:none;
+    background-color: #eaeaea;
+}
+.tombol {
+    gap:20px;
+    display: inline-block;
+}
+.ton1 {
+    background-color: #eaeaea;
+    text-align: center;
+    text-decoration: none;
+    padding:15px;
+    color:black;
+}
+.ton2 {
+    background-color:black;
+    color:white;
+    padding:15px;
+    text-decoration: none;
+}
+.wadah2 {
+    font-family: arial;
+}

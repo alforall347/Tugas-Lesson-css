@@ -5,7 +5,20 @@
     <title>Document</title>
 
 <style>
-.new {
+    .btn button {
+        background-color: #2b7e04;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-family: Arial;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .btn button:hover {
+        background-color: #025707;
+    }
+    .new {
     color: sandybrown;
     margin: 0 auto;
     text-align: center;
@@ -72,12 +85,37 @@
 .down {
   color: red;
 }
+.wadah {
+    font-family:Arial;
+    text-align:center;
+}
+.learn {
+    text-decoration:none;
+}
+.pp {
+    display: flex;
+    gap: 10px;
+}
 
 </style>
 
 </head>
 <body>
-    
+
+<h1 style="font-family: Tahoma;">This is Tahoma Font</h1>
+<br>
+<h1 style="font-family: Tahoma; margin-bottom: 5px;">BigGest Deal of the Year!</h1>
+<p style="font-family: Arial; color: #e34502; font-style: italic; margin-top: 0;">Sales end Tuesday</p>
+<br>
+<h1 style="font-family: Tahoma; margin-bottom: 5px;">HTML CSS Course</h1>
+<p style="font-family: Arial; color: gray; margin-top: 0;">Beginner To Pro</p>
+<p style="font-family: Arial; text-align: justify; margin-top: 0; width: 400px; height: auto;
+line-height: 1.6;">In this course, we'll learn the skills you need to become a developer</p>
+
+<div class="btn">
+    <button>Get Started</button>
+</div>
+
 <p class="new">New</p>
 <p class="mac">MacBook Pro</p>
 <p class="big">Supercharged for pros.</p>
@@ -98,11 +136,16 @@
 
 </div>
 
+<div class="wadah">
+<h1> Shopping for your business? </h1>
+<p> See how Apple at Work can Help. </p>
+<a href="#" class="learn"> Learn more > </a>
+</div>
 
-
-
-
-
-
+<div class="pp">
+<p><b>freeCodeCamp.org</b></p><p style="color:grey;">@freeCodeCamp 1h</p>
+</div>
+<p>As a web developer, you'll want to make your project easy to use and navigate around.</p>
+<p> Here <a href="#">@chp_it</a> outlines the top skill new developers should have.</p>
 </body>
 </html>
