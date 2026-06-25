@@ -1,0 +1,130 @@
+
+.kotak-merah {
+  width: 80px;
+  height: 80px;
+  background: red;
+}
+
+
+.lingkaran-hijau {
+  width: 80px;
+  height: 80px;
+  background: green;
+  border-radius: 50%;
+}
+
+
+.bingkai {
+  border: 1px solid #666;
+  padding: 12px;
+  display: inline-block;
+  font-family: Arial;
+}
+
+
+.kotak-hitam {
+  background: #121212;
+  color: white;
+  padding: 16px;
+  width: 280px;
+  font-family: Arial;
+}
+
+
+.kotak-tulis {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 2px #a7b9cc;
+  padding: 10px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.foto-profil {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.teks-pertanyaan {
+  font-family: Arial;
+  color: #666;
+}
+
+.tombol-kirim {
+  background-color: #418ddf;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.wadah-kartu {
+  display: flex;
+  gap: 15px; 
+}
+
+.kartu-teman {
+  background-color: white;
+  box-shadow: 0 2px 5px 2px #a7b9cc;
+  width: 180px;
+  height: 310px;
+  border-radius: 5px;
+}
+
+.foto-teman {
+  width: 180px;
+  height: 200px;
+  object-fit: cover; 
+  display: block;
+}
+
+.nama-teman {
+  margin: 10px 0 5px 10px;
+  font-family: Arial;
+}
+
+.info-teman {
+  margin: 0 0 8px 10px;
+  font-family: Arial;
+  color: #666;
+}
+
+.tombol-tambah {
+  background-color: #418ddf;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 10px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: Arial;
+}
+.google {
+    width:200px;
+}
+.search {
+    width: 400px;
+    padding:5px;
+    border-radius:100px;
+    outline:none;
+    border-color:#cacaca;
+}
+.tengah {
+  justify-content: center;
+  text-align: center;
+  align-items:center;
+}
+.google img {
+  text-align: center;
+}
