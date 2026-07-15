@@ -1,0 +1,114 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: Arial;
+}
+
+h3{
+margin-bottom:15px;
+font-size:17px;
+}
+
+
+/* 17a - Ukuran normal */
+.grid-video{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:16px;
+}
+.kotak{
+width:100%;
+}
+.bungkus{
+position:relative;
+margin-bottom:8px;
+}
+.gbr{
+width:100%;
+height:146px;
+object-fit:cover;
+border-radius:8px;
+}
+.jam{
+position:absolute;
+bottom:5px;
+right:5px;
+background:rgba(0,0,0,0.8);
+color:white;
+font-size:12px;
+padding:2px 5px;
+border-radius:2px;
+}
+.bawah{
+display:flex;
+gap:8px;
+}
+.ikon{
+width:32px;
+height:32px;
+border-radius:50%;
+object-fit:cover;
+flex-shrink:0;
+margin-top:2px;
+}
+.teks{
+flex:1;
+}
+.jdl{
+font-size:13px;
+font-weight:bold;
+margin-bottom:3px;
+line-height:1.3;
+}
+.nm{
+font-size:12px;
+color:#555;
+margin-bottom:2px;
+}
+.vw{
+font-size:11px;
+color:#777;
+}
+
+
+/* 17b - Layar lebar >1000px */
+@media (min-width:1000px){
+.jdl{
+font-size:16px;
+line-height:24px;
+}
+.nm, .vw{
+font-size:14px;
+}
+.grid-video{
+grid-template-columns:1fr 1fr 1fr 1fr;
+}
+}
+
+
+/* 17c - Desain lebar >1200px */
+.grid-baru{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:20px;
+margin-top:10px;
+}
+.kotak-baru .gbr{
+height:180px;
+border-radius:12px;
+}
+.kotak-baru .ikon{
+width:40px;
+height:40px;
+}
+@media (min-width:1200px){
+.grid-baru{
+grid-template-columns:1fr 1fr 1fr 1fr;
+gap:24px;
+}
+.jam{
+font-size:14px;
+padding:3px 6px;
+}
+}
